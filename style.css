@@ -1,0 +1,145 @@
+*{
+    box-sizing: border-box;
+}
+
+a{
+
+display: inline-block;
+}
+
+p{
+    color: black;
+}
+
+body{
+
+    font-family:"roboto";
+}
+
+header{
+/* background-color: black; */
+    padding: 15px 0;
+    position: fixed;
+    top: 0;
+    z-index: 2;
+    background-color: black;
+    width: 100%;
+}
+
+header .container{
+    display: flex ;
+    justify-content:space-between ;
+    align-items: center;
+}
+
+header .container .logo{
+  width: 100px;  
+}
+
+header .container nav a{
+  color:red;
+  text-decoration: none;
+  margin: 0 15px;  
+}
+.container{
+    width: 1140px;
+    margin: 0 auto;
+    padding-right:15px;
+    padding-left: 15px;
+}
+/* Incio de estilo de body */
+/* 5 tipos de posiciones */
+#inicio{
+
+    position: relative;
+}
+
+#inicio img{
+    width: 100%;
+    display: block;
+}
+
+#inicio .bloque-inicio{
+
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    width: 300px;
+    text-align: center;
+    margin-left: -200px;
+}
+
+#inicio .bloque-inicio h1{
+
+    color: white;
+    font-size: 35px;
+}
+
+#inicio .bloque-inicio p{
+ 
+    color: white;
+}
+
+.boton{
+text-align: center;
+text-decoration: none;
+padding: 15px 20px;
+}
+
+.boton.boton-rojo{
+    color: white;
+    background-color:red;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.seccion{
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+
+#nosotros{
+    background-image: url(img/robotechLogo.png);
+    background-size: cover;
+}
+
+#nosotros p{
+    color: black;
+    text-align: center;
+    font-size: 16px;
+    margin: 0;
+}
+
+.row{
+ display: flex;
+ flex-wrap: wrap;
+ margin-left: -15px;
+ margin-right: -15px;
+}
+
+.columna{
+    padding-right: 15px;
+    padding-left: 15px;
+    /* background-color: red; */
+}
+
+.columna-33{
+    width: 33%;
+}
+
+#servicios .bloque-servicio{
+    border: 1px solid gray;
+}
+
+#servicios .bloque-servicio .bloque-img-servicio img{
+    width: 100%;
+}
+
+#servicios .bloque-servicio .bloque-contenido-servicio{
+    padding: 15px;
+}
+
+#servicios .bloque-servicio .bloque-contenido-servicio h3{
+    margin-top: 0;
+    font-size: 25px;
+}
