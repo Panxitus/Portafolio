@@ -95,6 +95,7 @@ header .container nav a{
 
 header .container .hamb{
     display: none;
+    position: relative;
 }
 .container{
     width: 1140px;
@@ -395,11 +396,16 @@ sobre este cambie de color */
         margin: 15px 0;
     }
 
+    header.container nav.open{
+        transform: translateX(0);
+    }
+
     header .container .hamb{
 
         display: block;
         font-size: 40px ;
         color:red;
+        position: relative;
     }
     form .boton.boton-negro{
         width: 100%;
