@@ -14,7 +14,7 @@ function listo(){
         jQuery(".hamb i").removeClass(fa-x);
         var dev =jQuery(this).attr(href);
         jQuery("html,body").animate({
-            "scrollTop" : jQuery(dev).offset().top
+            "scrollTop" : jQuery(dev).offset().top -76
         })
         // alert(dev);
     })
